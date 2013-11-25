@@ -88,11 +88,10 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVP", {
   { "Sweeping Strikes", "modifier.multitarget" },
   { "Thunder Clap", "modifier.multitarget" },
   { "Bladestorm", "modifier.multitarget" },  
-  { "Dragon Roar", {
-	"modifier.multitarget", 
-	"modifier.cooldowns" }},
+
 
   -- Rotation
+  { "Dragon Roar"},
   { "Storm Bolt" },
   { "Colossus Smash",
     "!target.debuff(Colossus Smash)"},
