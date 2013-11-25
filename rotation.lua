@@ -58,11 +58,16 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVP", {
   { "Rallying Cry", "player.health < 20"},
   { "Shield Wall", "player.health < 30"},
   { "Die by the Sword", "player.health < 70"},
+  { "Intimidating Shout", {
+    "target.range <= 7 ",
+    "player.health < 75"
+  }},
+  { "Disarm" }
   --Snares
   { "Piercing Howl", {
     "!target.debuff(Hamstring)",
     "!target.debuff(Piercing Howl)",
-	"target.range < 10"
+	"target.range < 15"
   }},
   
   { "Hamstring", {
