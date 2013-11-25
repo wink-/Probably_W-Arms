@@ -1,6 +1,7 @@
 ProbablyEngine.rotation.register_custom(71, "W-Arms PVE", {
 -- SPEC ID 71
-
+-- Pause Rotation
+	{ "pause", "modifier.lshift" },
   -- Buffs
   { "Berserker Rage", "!player.buff(Enrage)" },
 
@@ -52,7 +53,8 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVE", {
 
 ProbablyEngine.rotation.register_custom(71, "W-Arms PVP", {
 -- SPEC ID 71
-
+-- Pause Rotation
+	{ "pause", "modifier.lshift" },
   -- Survival
   { "Rallying Cry", "player.health < 20"},
   { "Shield Wall", "player.health < 30"},
