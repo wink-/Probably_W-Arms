@@ -29,11 +29,10 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVE", {
   { "Thunder Clap", "modifier.multitarget" },
   { "Bladestorm", "modifier.multitarget" },  
   { "Whirlwind", "modifier.multitarget" },
-  { "Dragon Roar", {
-	"modifier.multitarget", 
-	"modifier.cooldowns" }},
+
 
   -- Rotation
+  { "Dragon Roar"},  
   { "Storm Bolt" },
   { "Overpower", "player.buff(Sudden Execute)" }, --T16 2pc bonus
   { "Colossus Smash",
