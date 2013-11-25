@@ -67,7 +67,7 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVP", {
   { "Piercing Howl", {
     "!target.debuff(Hamstring)",
     "!target.debuff(Piercing Howl)",
-	"target.range < 15"
+    "target.range < 15"
   }},
   
   { "Hamstring", {
