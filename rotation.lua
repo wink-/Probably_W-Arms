@@ -28,7 +28,7 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVE", {
   { "Sweeping Strikes", "modifier.multitarget" },
   { "Thunder Clap", "modifier.multitarget" },
   { "Bladestorm", "modifier.multitarget" },  
-  { "Whirlwind", "modifier.multitarget" },
+--  { "Whirlwind", "modifier.multitarget" }, -- No respecting arms warrior uses Whirlwind anyways
 
 
   -- Rotation
