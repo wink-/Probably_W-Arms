@@ -1,0 +1,6 @@
+## Interface: 50400
+## Title: Probably - W-Arms
+## Notes: ProbablyEngine Custom Arms Warrior
+## Dependencies: Probably
+
+rotation.lua
