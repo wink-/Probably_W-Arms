@@ -46,7 +46,6 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVE", {
     "target.debuff(Colossus Smash)"
   }},
   {"Slam"},
-  {"Heroic Throw"},
   {"Battle Shout"}
 
 })
@@ -62,7 +61,7 @@ ProbablyEngine.rotation.register_custom(71, "W-Arms PVP", {
     "target.range <= 7 ",
     "player.health < 75"
   }},
-  { "Disarm" }
+  { "Disarm" },
   --Snares
   { "Piercing Howl", {
     "!target.debuff(Hamstring)",
